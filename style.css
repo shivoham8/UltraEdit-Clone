@@ -1,0 +1,161 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+    width: 164px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 45px;
+}
+
+ul li {
+    list-style: none;
+    /* padding: 25px; */
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 20px 50px;
+}
+
+.nav-links .arrow {
+    width: 12px;
+    padding: 0 9px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* First Section */
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first span {
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: 70px;
+    width: 70vw;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    width: 63vw;
+    font-weight: 300;
+    color: #222;
+}
+
+.first div button {
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #00b6d1;
+    border: none;
+    height: 48px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Second Section */
+.second {
+    max-width: 50vw;
+    margin: 50px 240px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.download p {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px auto;
+    cursor: pointer;
+    overflow: none;
+}
+
+.blue {
+    background-color: #00b6d1;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.item {
+    overflow: none;
+    padding: 23px;
+    background-color: #f9f9f9;
+    height: 20vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.item-lang {
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.grid {
+    /* max-width: 60vw; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
